@@ -1,0 +1,23 @@
+* {
+  font-family: sans-serif;
+}
+
+html {
+  background: url(/assets/img/dotori-farm.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#title {
+  display: inline-block;
+  width: 140px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
+  position: fixed;
+  right: 100px;
+  bottom: 20px;
+  font-size: 3em;
+}

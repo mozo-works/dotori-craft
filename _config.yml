@@ -1,0 +1,32 @@
+title: Dotori Craft
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+baseurl: ''
+url: 'http://dotori.works'
+
+author: dotori-works
+instagram: dotori_craft
+logo:
+  #https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type: company # Either person or organization (defaults to person)
+  name: dotori crafts # If the user or organization name differs from the site's name
+  links: {  } # An array of links to social media profiles.
+google:
+  analytics:
+  site_verification:
+
+markdown: kramdown
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+  - jekyll-mentions
+  - jekyll-sitemap
+
+emoji:
+  src: "/assets/images/emoji"
