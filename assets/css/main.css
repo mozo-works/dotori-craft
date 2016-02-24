@@ -1,5 +1,12 @@
 * {
-  font-family: sans-serif;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.wf-active * {
+  font-family:'Spoqa Han Sans';
+  font-weight: 100;
 }
 
 html {
@@ -12,12 +19,13 @@ html {
 
 #title {
   display: inline-block;
-  width: 140px;
+  width: 150px;
   color: #fff;
   border-bottom: 1px solid #fff;
   padding-bottom: 3px;
   position: fixed;
-  right: 100px;
   bottom: 20px;
-  font-size: 3em;
+  left: 20px;
+  font-size: 2.5em;
+  line-height: 1.3;
 }
