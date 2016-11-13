@@ -1,8 +1,14 @@
 title: Dotori Craft
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  도토리 크라프트는 홍제동 문화촌에 있는 가죽 공방입니다.
+  디자인부터 마무리까지 한 사람이 책임지고 손바느질로 정성스럽게 제작합니다.
+  또 정규 클래스나 일일 체험을 통해 가죽 제품을 직접 손으로 만들어보는 즐거움을 느낄 수 있습니다.
+keywords:
+  - 가죽공방
+  - 가죽공예
+  - 주문제작
+  - 원데이클래스
+  - 카드지갑
 
 baseurl: ''
 url: 'http://dotori.works'
@@ -12,8 +18,8 @@ instagram: dotori_craft
 logo:
   #https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type: company # Either person or organization (defaults to person)
-  name: dotori crafts # If the user or organization name differs from the site's name
+  type: 공방 # Either person or organization (defaults to person)
+  name: 도토리 크라프트 # If the user or organization name differs from the site's name
   links: {  } # An array of links to social media profiles.
 google:
   analytics:
@@ -23,10 +29,4 @@ markdown: kramdown
 
 gems:
   - jekyll-seo-tag
-  - jekyll-feed
-  - jemoji
-  - jekyll-mentions
   - jekyll-sitemap
-
-emoji:
-  src: "/assets/images/emoji"
