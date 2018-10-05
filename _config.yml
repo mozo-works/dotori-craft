@@ -14,7 +14,7 @@ baseurl: ''
 url: 'http://dotori.works'
 
 author: dotori-works
-instagram: dotori_craft
+instagram: https://www.instagram.com/dotori_yeo
 logo:
   #https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -27,6 +27,6 @@ google:
 
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
